@@ -8,34 +8,38 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    <header class="topo">
-        <div class="container">
-            <strong>Newsletter</strong>
-            <button id="btnTema" class="btn">Alternar tema 🌓</button>
-        </div>
-    </header>
+   <header class="topo">
+    <div class="container">
+        <strong>Newsletter</strong>
+        <button id="btnTema" class="btn">Alternar tema 🌓</button>
+    </div>
+   </header>
 
-    <main class="container">
-        <section class="caixa">
-            <h1>Inscreva-se</h1>
-            <p>Receba novidades do seu e-mail. Sem Spam.</p>
+   <main class="container">
 
-            <form>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" placeholder="Seu nome">
+    <section class="caixa">
+        <h1>Inscreva-se</h1>
+        <p>Receba novidades do seu e-mail. Sem span.</p>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="nome@email.com">
+        <form id="formulario">
+            <label for="Nome">Nome</label>
+            <input type="text" name="nome" id="nomi" placeholder="Seu nome" required>
 
-                <button type="submit" class="btn primario">Quero receber!</button>
-            </form>
-        </section>
-    </main>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="emaill" placeholder="nome@email.com" required>
 
-    <footer class="rodape">
-        <div class="container">
-            <small>Newsletter <span id="ano"></span></small>
-        </div>
-    </footer>
+            <button type="submit" class="btn primario">
+                Quero receber
+            </button>
+        </form>
+    </section>
+
+   </main>
+
+   <footer class="rodape">
+    <div class="container">
+        <small>Newsletter <span id="ano"></span></small>
+    </div>
+   </footer>
 </body>
 </html>

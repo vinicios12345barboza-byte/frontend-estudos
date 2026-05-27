@@ -59,6 +59,7 @@ header{
 
 .curiosities-container li{
     height: 30px;
+    padding: 7px;
 }
 
 .img-bold{
@@ -67,9 +68,13 @@ header{
     text-align: center;
 }
 
-a:active{
-    color: rgb(253, 72, 0);
+img{
+    width: 100%;
 }
+
+a:hover{
+    color: rgb(253, 72, 0);
+} 
 
 a{
     color: black;

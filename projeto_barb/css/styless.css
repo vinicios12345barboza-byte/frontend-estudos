@@ -23,7 +23,9 @@ p{
 }
 
 nav{
-    position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .logo{
@@ -32,12 +34,11 @@ nav{
 }
 
 .navbar-items{
-    position: absolute;
-    right: 0;
     height: 80px;
     line-height: 80px;
     margin: 0;
-    display: inline-block;
+    display: flex;
+    gap: 20px;
 }
 
 .navbar-items li{

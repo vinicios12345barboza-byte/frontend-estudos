@@ -120,6 +120,8 @@ h2{
     background-image: url(imagens/lua.png);
     color: white;
     padding: 10px;
+    background-repeat: no-repeat;
+    
 }
 
 /* centralizando bg img */
@@ -264,7 +266,7 @@ h2{
 
 }
 
-/* alinhamento de texo */
+/* alinhamento de texto */
 .text-aling{
     text-align: right;
 }
@@ -409,6 +411,15 @@ h2{
     color: white;
     top: 2px;
     right: 2px;
+}
+.absolute-22{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(116, 240, 0);
+    color: white;
+    top: 10px;
+    left: 2px;
 }
 
 /* relative com absolute */

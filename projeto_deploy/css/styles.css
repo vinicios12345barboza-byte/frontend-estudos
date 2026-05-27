@@ -23,7 +23,6 @@
 html, body{
     height: 100%;
 }
-
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,8 +49,8 @@ body{
     background-color: var(--caixa);
     border-radius: .5rem;
     padding: 2rem 1rem;
-    margin: 1.5rem auto;
     max-width: 80%;
+    margin: 1.5rem auto;
 }
 
 h1{
@@ -87,7 +86,7 @@ input{
     color: var(--texto);
     border-radius: .5rem;
     cursor: pointer;
-    max-width: 200px;
+    
 }
 
 .btn.primario{
@@ -97,7 +96,7 @@ input{
 }
 
 .rodape{
-    border: 1px solid var(--borda);
+    border-top: 1px solid var(--borda);
     height: 65px;
     display: flex;
     align-items: center;
@@ -105,7 +104,4 @@ input{
     color: #6b7280;
     margin-top: auto;
 }
-
-
-
 /* */
