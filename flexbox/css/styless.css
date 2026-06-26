@@ -4,30 +4,31 @@ body{
 
 /* 1 - flex */
 .flex{
-    display: flex;
-    background-color: #a8a8a8;
-    margin-bottom: 20px;
+  display: flex;
+  background-color: aliceblue;
+  margin-bottom: 20px;
 }
 
 /* 2 - flex direction - column  */
 .flex-column{
    display: flex;
-   background-color: #ccc;
    flex-direction: column;
+   background-color: #ccc;
    margin-bottom: 20px;
 }
 
 /* 3 - flex wrap */
 .wrap{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .box{
-    height: 50px;
-    width: 33%;
-    border: 1px solid #02c222;
+    text-align: center;
+   height: 40px;
+   width: 33%;
+   border: 1px solid red;
 }
 
 /* 4 - justify content */
